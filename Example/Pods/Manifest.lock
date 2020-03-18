@@ -1,0 +1,16 @@
+PODS:
+  - SMLagMonitor (0.1.0)
+
+DEPENDENCIES:
+  - SMLagMonitor (from `../`)
+
+EXTERNAL SOURCES:
+  SMLagMonitor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SMLagMonitor: dfb6070263b034aab5e3f9ce18352058256d5009
+
+PODFILE CHECKSUM: b405a5026f9673f0e17ea83ef089fc20b9d02ee9
+
+COCOAPODS: 1.9.0

@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1664CCD0681760D0DA26674E /* Pods-SMLagMonitor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMLagMonitor_Tests.release.xcconfig"; path = "Target Support Files/Pods-SMLagMonitor_Tests/Pods-SMLagMonitor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		182FF867F36711BD912F5BE8 /* Pods-SMLagMonitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMLagMonitor_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SMLagMonitor_Tests/Pods-SMLagMonitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		288854C00DE538141F9E9019 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		288854C00DE538141F9E9019 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5E3A7B2A4FB213840149EC96 /* Pods-SMLagMonitor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMLagMonitor_Example.debug.xcconfig"; path = "Target Support Files/Pods-SMLagMonitor_Example/Pods-SMLagMonitor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SMLagMonitor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMLagMonitor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6D1BF8E7302475F51DBDEC8A /* Pods-SMLagMonitor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMLagMonitor_Example.release.xcconfig"; path = "Target Support Files/Pods-SMLagMonitor_Example/Pods-SMLagMonitor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		844965C5FF6A63D055B6E6F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		844965C5FF6A63D055B6E6F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B8C51B58D73906EB9A77EC00 /* SMLagMonitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SMLagMonitor.podspec; path = ../SMLagMonitor.podspec; sourceTree = "<group>"; };
+		B8C51B58D73906EB9A77EC00 /* SMLagMonitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SMLagMonitor.podspec; path = ../SMLagMonitor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DE5F01CE2D6A2A62A1FBA3A5 /* Pods_SMLagMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMLagMonitor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B292E2EDB2A02F080B8B77 /* Pods_SMLagMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMLagMonitor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				182FF867F36711BD912F5BE8 /* Pods-SMLagMonitor_Tests.debug.xcconfig */,
 				1664CCD0681760D0DA26674E /* Pods-SMLagMonitor_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
