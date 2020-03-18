@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SMLagMonitor_Example' do
+  pod 'SMLagMonitor', :path => '../'
+
+  target 'SMLagMonitor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
