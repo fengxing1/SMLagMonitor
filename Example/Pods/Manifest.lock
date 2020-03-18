@@ -1,16 +1,43 @@
 PODS:
-  - SMLagMonitor (0.1.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Masonry (1.1.0)
+  - MJRefresh (3.3.1)
+  - ReactiveCocoa (2.3):
+    - ReactiveCocoa/UI (= 2.3)
+  - ReactiveCocoa/Core (2.3):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3)
+  - ReactiveCocoa/UI (2.3):
+    - ReactiveCocoa/Core
+  - SMLagMonitor (0.1.0):
+    - FMDB
+    - Masonry
+    - MJRefresh (~> 3.3.0)
+    - ReactiveCocoa (= 2.3)
 
 DEPENDENCIES:
   - SMLagMonitor (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FMDB
+    - Masonry
+    - MJRefresh
+    - ReactiveCocoa
 
 EXTERNAL SOURCES:
   SMLagMonitor:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SMLagMonitor: dfb6070263b034aab5e3f9ce18352058256d5009
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  ReactiveCocoa: 81ee2fb7df2dfc6bd52b5d70473662195e20ca7d
+  SMLagMonitor: dc2643414abd7880efd2a68c1fae5a7e90e7e447
 
-PODFILE CHECKSUM: b405a5026f9673f0e17ea83ef089fc20b9d02ee9
+PODFILE CHECKSUM: f2ee9496d05c1700149308d6a26ce1d727ff49ed
 
-COCOAPODS: 1.9.0
+COCOAPODS: 1.9.1
