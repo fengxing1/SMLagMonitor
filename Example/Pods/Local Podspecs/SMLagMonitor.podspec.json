@@ -21,16 +21,16 @@
   "source_files": "SMLagMonitor/Classes/**/*",
   "dependencies": {
     "MJRefresh": [
-
+      "3.1.15.6"
     ],
     "FMDB": [
-
+      "2.7.5"
     ],
     "ReactiveCocoa": [
-
+      "4.2.1"
     ],
     "Masonry": [
-
+      "1.1.0"
     ]
   }
 }
