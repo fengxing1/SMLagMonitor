@@ -4,14 +4,18 @@ PODS:
   - FMDB/standard (2.7.5)
   - Masonry (1.1.0)
   - MJRefresh (3.1.15.6)
-  - ReactiveCocoa (10.2.0):
-    - ReactiveSwift (~> 6.2)
-  - ReactiveSwift (6.2.1)
+  - ReactiveCocoa (2.3):
+    - ReactiveCocoa/UI (= 2.3)
+  - ReactiveCocoa/Core (2.3):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3)
+  - ReactiveCocoa/UI (2.3):
+    - ReactiveCocoa/Core
   - SMLagMonitor (0.2.0):
     - FMDB (= 2.7.5)
     - Masonry (= 1.1.0)
     - MJRefresh (= 3.1.15.6)
-    - ReactiveCocoa
+    - ReactiveCocoa (= 2.3)
 
 DEPENDENCIES:
   - SMLagMonitor (from `../`)
@@ -22,7 +26,6 @@ SPEC REPOS:
     - Masonry
     - MJRefresh
     - ReactiveCocoa
-    - ReactiveSwift
 
 EXTERNAL SOURCES:
   SMLagMonitor:
@@ -32,9 +35,8 @@ SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
-  ReactiveCocoa: a123c42f449c552460a4ee217dd49c76a17c8204
-  ReactiveSwift: 07ddf579f4eb3ee3bd656214f0461aaf2c0fd639
-  SMLagMonitor: 0f1e31b327f67daf84451ee5701654809bbc52aa
+  ReactiveCocoa: 81ee2fb7df2dfc6bd52b5d70473662195e20ca7d
+  SMLagMonitor: d85bb3b5c8f2cf92919000fe9ea5f6f7c7815bfd
 
 PODFILE CHECKSUM: 5ca0bf7a070d82068062c7f8c1e47b8244c61977
 
