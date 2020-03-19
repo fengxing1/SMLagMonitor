@@ -40,6 +40,6 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'MJRefresh', '3.1.15.6'
    s.dependency 'FMDB', '2.7.5'
-   s.dependency 'ReactiveCocoa', '4.2.1'
+   s.dependency 'ReactiveCocoa','10.2.0'
    s.dependency 'Masonry', '1.1.0'
 end
