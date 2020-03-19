@@ -1,4 +1,5 @@
-
+#source 'http://2dfire.net:ios/cocoapods-spec'
+#source 'https://github.com/fengxing1/mySpec'
 use_frameworks!
 
 platform :ios, '8.0'

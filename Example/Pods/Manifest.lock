@@ -11,7 +11,7 @@ PODS:
   - ReactiveCocoa/no-arc (2.3)
   - ReactiveCocoa/UI (2.3):
     - ReactiveCocoa/Core
-  - SMLagMonitor (0.1.0):
+  - SMLagMonitor (0.2.0):
     - FMDB
     - Masonry
     - MJRefresh
@@ -36,8 +36,8 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
   ReactiveCocoa: 81ee2fb7df2dfc6bd52b5d70473662195e20ca7d
-  SMLagMonitor: d5d126373c319f78bd9383b20ea0f4f7213443ed
+  SMLagMonitor: 1a40cd9344ea5b97cace14f1ae84790e3f5a48eb
 
-PODFILE CHECKSUM: 6deb17507f1441746dfc223beca5f3edfb967468
+PODFILE CHECKSUM: 5ca0bf7a070d82068062c7f8c1e47b8244c61977
 
 COCOAPODS: 1.7.1
